@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Opeyemi Apara | My Links</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      padding: 50px 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #00f7ff;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .bio {
+      max-width: 400px;
+      margin: 0 auto 30px;
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    .link {
+      display: block;
+      margin: 15px auto;
+      padding: 15px;
+      width: 80%;
+      max-width: 400px;
+      background: rgba(34, 34, 34, 0.9);
+      border-radius: 10px;
+      text-decoration: none;
+      color: #00f7ff;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(6px);
+      font-weight: 600;
+    }
+
+    .link:hover {
+      background: #333;
+      transform: scale(1.03);
+      box-shadow: 0 0 10px #00f7ff50;
+    }
+
+    .link i {
+      margin-right: 8px;
+    }
+
+    /* Toggle Theme */
+    .light-mode {
+      background: #f5f5f5;
+      color: #111;
+    }
+
+    .light-mode .link {
+      background: #e0e0e0;
+      color: #111;
+    }
+
+    .light-mode .bio {
+      color: #444;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    @media (max-width: 480px) {
+      .link {
+        font-size: 14px;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Profile Image -->
+  <img src="https://avatars.githubusercontent.com/u/133395501?v=4" alt="Opeyemi Apara" class="profile-img">
+
+  <h1>✨ Opeyemi Apara ✨</h1>
+
+  <p class="bio">Web Developer focused on clean design & powerful websites. Let’s build something awesome together.</p>
+
+  <!-- Main Links -->
+  <a href="https://opeyemi-apara-portfolio.netlify.app/" class="link"><i class="fas fa-globe"></i> My Portfolio</a>
+  
+  <a href="mailto:daparaopeyemi@gmail.com" class="link"><i class="fas fa-envelope"></i> Email Me</a>
+  
+  <a href="https://github.com/opethegifted" class="link"><i class="fab fa-github"></i> GitHub</a>
+  
+  <a href="https://www.fiverr.com/users/opeyemiapara/seller_dashboard" class="link"><i class="fas fa-briefcase"></i> Fiverr Profile</a>
+  
+  <a href="https://drive.google.com/uc?export=download&id=1t7cAoqr5IV9uRXxsjlw5ga0m2TYpZ70l" class="link" download>
+    <i class="fas fa-file-download"></i> Download My CV (Word)
+  </a>
+
+  <a href="https://www.linkedin.com/in/opeyemi-apara-0673b4272/" class="link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+
+  
+
+  <!-- WhatsApp with pre-filled message -->
+  <a href="https://wa.me/2347082965847?text=Hi%20Opeyemi%2C%20I%20just%20checked%20your%20linktree%20and%20I'm%20interested%20in%20working%20with%20you!" class="link">
+    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+  </a>
+
+  <!-- Theme Toggle -->
+  <a href="javascript:void(0);" onclick="toggleTheme()" class="link"><i class="fas fa-adjust"></i> Toggle Theme</a>
+
+  <footer>
+    Made with ❤️ by Opeyemi Apara
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('light-mode');
+    }
+  </script>
+
+</body>
+</html>
